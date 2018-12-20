@@ -1,0 +1,367 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*main css starts here*/
+
+.left-name{
+	text-align: left;
+    background-color: #4aaaa5;
+    height: 53px;
+    /*width: 20%;*/
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 17px;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.nav-bar{
+	float: right;
+    color: #777777;
+    font-size: 19px;
+    display: block;
+    height: 53px;
+    padding-top: 20px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+li:hover{
+    border:1px solid black;
+    background-color: gray;
+    color: white;
+    height: 33px;
+
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+li a:hover{
+    color: white;
+   
+}
+.body-container{
+	width: 100%;
+    background-image: url('../images/concrete_seamless.png');
+    display: block;
+    padding-top: 50px;
+    overflow: auto;
+     /*height:700px;*/
+
+}
+.body-cont{
+	background: #ffffff;
+}
+.body-content{
+	display: block;
+    /*width: 93%;*/
+    margin: 0 auto;
+    height: 100%;
+}
+.body-content img{
+	width: 20%;
+    margin-top: 30px;
+    float: left;
+    margin-right: 24px;
+   
+}
+.body-header{
+	display: block;
+    font-size: 30px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 29px;
+}
+
+.profile-desc{
+	margin-top: 30px;
+    line-height: 30px;
+    color:gray;
+
+}
+#profile-desc{
+	clear: left;
+
+}
+.footer{
+	position: fixed;
+    top: 700px;
+    background: gray;
+    display: block;
+    width: 100%;
+    height: 53px;
+    border-top: 10px solid #4aaaa5;
+    text-align: center;
+    padding: 25px;
+
+}
+
+/*css for Contact.html*/
+
+.form-container{
+    margin-top: 15px;
+
+}
+.form-key{
+	color: #777777;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.form-container input{
+	height: 25px;
+    margin-bottom: 10px;
+    color: #777777;
+}
+textarea{
+	color: #777777;
+}
+.button{
+	padding-left: 16px;
+    background: #4aaaa5;
+    color: white !important;
+    padding-right: 16px;
+    font-size: 15px;
+    height: 30px;
+}
+/*css for portfolio images starts here*/
+
+.img-cont{
+    display: inline-block;
+    margin-top: 30px;
+}
+.back-img1{
+	background-image: url(../images/technics-q-c-640-480-1.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 112px;
+
+}
+.back-img2{
+	background-image: url(../images/technics-q-c-640-480-2.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 112px;
+
+}
+.back-img3{
+	background-image: url(../images/technics-q-c-640-480-5.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 112px;
+
+}
+.back-img4{
+	background-image: url(../images/technics-q-c-640-480-7.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 112px;
+
+}
+.back-img5{
+	background-image: url(../images/technics-q-c-640-480-9.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 112px;
+
+}
+.img-grp{
+	display: block;
+}
+.img-name{
+	background-color: #4aaaa5;
+    padding-top: 13px;
+    width: 83%;
+    height: 27px;
+    display: inline-block;
+    color: white;
+    margin-top: 65px;
+    text-align: center;
+}
+
+/*@media screen and (max-width: 1384px) {
+    .left-name{
+        width: 22%;
+    }
+
+}
+@media screen and (max-width: 1266px) {
+    .left-name{
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width: 1266px) {
+    .left-name{
+        width: 28%;
+    }
+
+}
+@media screen and (max-width: 1004px) {
+    .left-name{
+        width: 30%;
+    }
+
+}
+@media screen and (max-width: 940px) {
+    .left-name{
+        width: 34%;
+    }
+
+}
+@media screen and (max-width: 836px) {
+    .left-name{
+        width: 38%;
+    }
+
+}
+
+@media screen and (max-width: 801px) {
+    .nav-bar{
+        float: none;
+        margin-left: -19px;
+
+}
+}
+@media screen and (max-width: 777px) {
+    .left-name {
+    width: 40%;
+}
+    
+       
+
+
+}
+@media screen and (max-width: 780px) {
+    .left-name {
+    width: 29%;
+}
+.header-cont{
+    position: relative;
+    left: 117px;
+  }  
+}
+     
+     @media screen and (max-width: 690px) {
+    .left-name {
+    width: 34%;
+}
+}  
+
+@media screen and (max-width: 663px) {
+    .left-name {
+    width: 29%;
+}
+.header-cont{
+   position: relative;
+    left: 117px;
+  }  
+}  
+
+@media screen and (max-width: 646px) {
+    .left-name {
+    width: 33%;
+}
+.header-cont{
+   position: relative;
+    left: 117px;
+  }  
+} 
+@media screen and (max-width: 575px) {
+    .left-name {
+    width: 38%;
+}
+.header-cont{
+   position: relative;
+    left: 0px;
+  }  
+} 
+
+@media screen and (max-width: 503px) {
+    .left-name {
+    width: 43%;
+}
+}
+@media screen and (max-width: 447px) {
+    .left-name {
+    width: 49%;
+}
+}*/
+
+
+
+
+    
+
+
