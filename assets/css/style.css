@@ -62,12 +62,12 @@ table {
 }
 
 .nav-bar{
-	float: right;
     color: #777777;
     font-size: 19px;
     display: block;
     height: 53px;
     padding-top: 20px;
+    float: right;
 
 }
 ul {
@@ -105,13 +105,14 @@ li a:hover{
     color: white;
    
 }
+
 .body-container{
 	width: 100%;
     background-image: url('../images/concrete_seamless.png');
     display: block;
     padding-top: 50px;
     overflow: auto;
-     /*height:700px;*/
+     height:700px;
 
 }
 .body-cont{
@@ -121,7 +122,7 @@ li a:hover{
 	display: block;
     /*width: 93%;*/
     margin: 0 auto;
-    height: 100%;
+    
 }
 .body-content img{
 	width: 20%;
@@ -149,8 +150,8 @@ li a:hover{
 
 }
 .footer{
-	position: fixed;
-    top: 700px;
+	position: relative;
+    top: 0px;
     background: gray;
     display: block;
     width: 100%;
@@ -248,116 +249,51 @@ textarea{
     margin-top: 65px;
     text-align: center;
 }
-
-/*@media screen and (max-width: 1384px) {
-    .left-name{
-        width: 22%;
-    }
-
-}
-@media screen and (max-width: 1266px) {
-    .left-name{
-        width: 25%;
-    }
-
-}
-
-@media screen and (max-width: 1266px) {
-    .left-name{
-        width: 28%;
-    }
-
-}
-@media screen and (max-width: 1004px) {
-    .left-name{
-        width: 30%;
-    }
-
-}
-@media screen and (max-width: 940px) {
-    .left-name{
-        width: 34%;
-    }
-
-}
-@media screen and (max-width: 836px) {
-    .left-name{
-        width: 38%;
-    }
-
-}
-
-@media screen and (max-width: 801px) {
-    .nav-bar{
-        float: none;
-        margin-left: -19px;
-
-}
-}
-@media screen and (max-width: 777px) {
-    .left-name {
-    width: 40%;
-}
-    
-       
-
-
-}
-@media screen and (max-width: 780px) {
-    .left-name {
-    width: 29%;
-}
-.header-cont{
+@media screen and (max-width: 782px) {
+    .nav-bar {
     position: relative;
-    left: 117px;
-  }  
+    left: -194px;
 }
-     
-     @media screen and (max-width: 690px) {
-    .left-name {
-    width: 34%;
-}
-}  
 
-@media screen and (max-width: 663px) {
-    .left-name {
-    width: 29%;
 }
-.header-cont{
-   position: relative;
-    left: 117px;
-  }  
-}  
 
-@media screen and (max-width: 646px) {
-    .left-name {
-    width: 33%;
-}
-.header-cont{
-   position: relative;
-    left: 117px;
-  }  
-} 
-@media screen and (max-width: 575px) {
-    .left-name {
-    width: 38%;
-}
-.header-cont{
-   position: relative;
-    left: 0px;
-  }  
-} 
+@media screen and (max-width: 726px) {
+    .nav-bar{
+        left: -163px;
+    }
 
-@media screen and (max-width: 503px) {
-    .left-name {
-    width: 43%;
 }
+@media screen and (max-width: 726px) {
+    .nav-bar{
+        left: -131px;
+    }
+
 }
-@media screen and (max-width: 447px) {
-    .left-name {
-    width: 49%;
+@media screen and (max-width: 726px) {
+    .nav-bar{
+        left: -28px;
+    }
+
 }
-}*/
+@media screen and (max-width: 576px) {
+   .nav-bar {
+    
+    top: -11px;
+        width: 314px;
+}
+
+}
+
+@media screen and (max-width: 402px) {
+    .nav-bar {
+    left: -73px;
+    top: -11px;
+    width: 314px;
+    }
+
+}
+
+
 
 
 
